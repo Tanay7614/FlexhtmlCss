@@ -1,0 +1,83 @@
+<<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+            body {
+                background-color: burlywood
+            }
+
+            .headerContainer {
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                background: blue;
+                font-weight: bold;
+                color: #F6F3EB;
+            }
+
+            .media {
+                display: flex;
+                align-items: flex-start;
+                background: blueviolet;
+                padding: 1em;
+                border-radius: 3px;
+                max-width: 60em;
+            }
+
+            .mediaObject {
+                margin-right: 1em;
+                width: 180px;
+            }
+
+            .mediaBody {
+                flex: 1;
+            }
+
+            .heading {
+                margin: 0 0 15px;
+            }
+
+            .para {
+                font-size: 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header class="headerContainer">
+            <h1>Welcome To Flexbox Media Object</h1>
+        </header>
+
+        <br>
+
+        <div class="media">
+            <img class="mediaObject" src="C:\Users\tanay\Mycore\WebDevelopment\javaScript\htmlCss\assets\img9.jpeg"
+                alt="Sample photo">
+            <div class="mediaBody">
+                <h2 class="heading">Organically Synthesized</h2>
+                <p class="para">Our forests, rivers, oceans and soils provide us with the food we eat, the air we
+                    breathe,
+                    the water we irrigate our crops with. We also rely on them for numerous other goods and services we
+                    depend on for our health,
+                    happiness and prosperity.</p>
+
+                <div class="media">
+                    <img class="mediaObject"
+                        src="C:\Users\tanay\Mycore\WebDevelopment\javaScript\htmlCss\assets\img11.jpg"
+                        alt="Sample photo">
+                    <div class="mediaBody">
+                        <h2 class="heading">Eco Processing</h2>
+                        <p class="para">Nature, in the broadest sense, is the natural, physical, material world or
+                            universe.
+                            "Nature" can refer to the phenomena of the physical world, and also to life in general. ...
+                            Although humans are part of nature,
+                            human activity is often understood as a separate category from other natural phenomena.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
